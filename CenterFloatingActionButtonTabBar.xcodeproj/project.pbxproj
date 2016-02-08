@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D9B332EA1C68F90E00013CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B332E91C68F90E00013CD1 /* AppDelegate.swift */; };
-		D9B332EC1C68F90E00013CD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B332EB1C68F90E00013CD1 /* ViewController.swift */; };
 		D9B332EF1C68F90E00013CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B332ED1C68F90E00013CD1 /* Main.storyboard */; };
-		D9B332F11C68F90E00013CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B332F01C68F90E00013CD1 /* Assets.xcassets */; };
 		D9B332F41C68F90E00013CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B332F21C68F90E00013CD1 /* LaunchScreen.storyboard */; };
+		D9B332FC1C68F96900013CD1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B332FB1C68F96900013CD1 /* TabBarController.swift */; };
+		D9B333031C68FB0800013CD1 /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B332FD1C68FB0800013CD1 /* SettingsNavigationController.swift */; };
+		D9B333041C68FB0800013CD1 /* SettingsMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B332FE1C68FB0800013CD1 /* SettingsMenuTableView.swift */; };
+		D9B333051C68FB0800013CD1 /* SettingsMenuTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B332FF1C68FB0800013CD1 /* SettingsMenuTableViewDataSource.swift */; };
+		D9B333061C68FB0800013CD1 /* SettingsMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B333001C68FB0800013CD1 /* SettingsMenuHeaderView.swift */; };
+		D9B333071C68FB0800013CD1 /* SettingsMenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B333011C68FB0800013CD1 /* SettingsMenuHeaderView.xib */; };
+		D9B333091C68FB3400013CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B333081C68FB3400013CD1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9B332E61C68F90E00013CD1 /* CenterFloatingActionButtonTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenterFloatingActionButtonTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B332E91C68F90E00013CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9B332EB1C68F90E00013CD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9B332EE1C68F90E00013CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9B332F01C68F90E00013CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B332F31C68F90E00013CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B332F51C68F90E00013CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B332FB1C68F96900013CD1 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D9B332FD1C68FB0800013CD1 /* SettingsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavigationController.swift; sourceTree = "<group>"; };
+		D9B332FE1C68FB0800013CD1 /* SettingsMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsMenuTableView.swift; sourceTree = "<group>"; };
+		D9B332FF1C68FB0800013CD1 /* SettingsMenuTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsMenuTableViewDataSource.swift; sourceTree = "<group>"; };
+		D9B333001C68FB0800013CD1 /* SettingsMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsMenuHeaderView.swift; sourceTree = "<group>"; };
+		D9B333011C68FB0800013CD1 /* SettingsMenuHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsMenuHeaderView.xib; sourceTree = "<group>"; };
+		D9B333081C68FB3400013CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,27 @@
 			isa = PBXGroup;
 			children = (
 				D9B332E91C68F90E00013CD1 /* AppDelegate.swift */,
-				D9B332EB1C68F90E00013CD1 /* ViewController.swift */,
 				D9B332ED1C68F90E00013CD1 /* Main.storyboard */,
-				D9B332F01C68F90E00013CD1 /* Assets.xcassets */,
+				D9B332FB1C68F96900013CD1 /* TabBarController.swift */,
+				D9B333021C68FB0800013CD1 /* RightSideSlideOutSettingsMenu */,
 				D9B332F21C68F90E00013CD1 /* LaunchScreen.storyboard */,
+				D9B333081C68FB3400013CD1 /* Assets.xcassets */,
 				D9B332F51C68F90E00013CD1 /* Info.plist */,
 			);
 			path = CenterFloatingActionButtonTabBar;
+			sourceTree = "<group>";
+		};
+		D9B333021C68FB0800013CD1 /* RightSideSlideOutSettingsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D9B332FD1C68FB0800013CD1 /* SettingsNavigationController.swift */,
+				D9B332FE1C68FB0800013CD1 /* SettingsMenuTableView.swift */,
+				D9B332FF1C68FB0800013CD1 /* SettingsMenuTableViewDataSource.swift */,
+				D9B333001C68FB0800013CD1 /* SettingsMenuHeaderView.swift */,
+				D9B333011C68FB0800013CD1 /* SettingsMenuHeaderView.xib */,
+			);
+			name = RightSideSlideOutSettingsMenu;
+			path = "../../../Projects/Consumer App/Tastii";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B332F41C68F90E00013CD1 /* LaunchScreen.storyboard in Resources */,
-				D9B332F11C68F90E00013CD1 /* Assets.xcassets in Resources */,
+				D9B333071C68FB0800013CD1 /* SettingsMenuHeaderView.xib in Resources */,
+				D9B333091C68FB3400013CD1 /* Assets.xcassets in Resources */,
 				D9B332EF1C68F90E00013CD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B332EC1C68F90E00013CD1 /* ViewController.swift in Sources */,
+				D9B333041C68FB0800013CD1 /* SettingsMenuTableView.swift in Sources */,
+				D9B332FC1C68F96900013CD1 /* TabBarController.swift in Sources */,
+				D9B333061C68FB0800013CD1 /* SettingsMenuHeaderView.swift in Sources */,
+				D9B333031C68FB0800013CD1 /* SettingsNavigationController.swift in Sources */,
+				D9B333051C68FB0800013CD1 /* SettingsMenuTableViewDataSource.swift in Sources */,
 				D9B332EA1C68F90E00013CD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
